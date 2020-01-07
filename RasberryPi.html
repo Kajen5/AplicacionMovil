@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Microcontroladores</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+    <link href="./bootstrap-4.1.1-dist/css/bootstrap.min.css" rel="stylesheet" media="screen"> <!--c Llamamos al archivo CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- https://openwebinars.net/blog/tutorial-bootstrap-3-introduccion-e-instalacion/ -->
+  <style src="./losestilos.css"></style>
+  </head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top nav-pills">
+        <div class="container"> <!-- container tiene un pequeño espaciado hacia los lados -->
+          <a href="index.html" class="navbar-brand"> <!-- a href muestr el nombre del sitio web// class="navbar-brand" estileriza el sitio web -->
+            Microcontroladores <!-- texto del navbar -->
+          </a>
+          <!-- boton qu aparece en pantalas pequeñas usando bootsrap tipo collarpse -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <!-- el id es #navbarColapse que lo crea el programador -->
+            <span class="navbar-toggler-icon"></span> <!-- icono de menu de hamburguesa -->
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarCollapse"> <!-- id = "navbarcollapse" creado por el programador cuando el boton preciona se adapta a dipositivo movil -->
+            <ul class="navbar-nav ml-auto"> <!-- ml se va al lado derecho de la pantalla -->
+              <li class="nav-item"> <!-- clase de botstrap que enlista -->
+                <a href="index.html" class="nav-link">Inicio</a> <!-- href="#home-section" (nombre elegido por ti) llama a una mseccion de pagina creado por el programador //nav-link es una clase de bootstrap -->
+              </li>
+              <li class="nav-item">
+                <a href="Arduino.html" class="nav-link">Arduino</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="RasberryPi.html" class="nav-link">Rasberry Pi</a>
+              </li>
+              <li class="nav-item">
+                <a href="informacion.html" class="nav-link">Informacion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- -->
+    <!-- Button trigger modal -->
+
+
+    <!-- -->
+<div class="container" style="padding-top:10vh">
+  <h1>Rasberry Pi</h1>
+ <img class="img-fluid float-left" src="img/rasberry-placa.png"> 
+<p class="lead">Raspberry PI es una placa computadora (SBC) de bajo coste es un ordenador de tamaño reducido, del orden de una tarjeta de crédito, desarrollado en el Reino Unido por la Fundación Raspberry, con el objetivo de estimular la enseñanza de la informática en las escuelas, aunque no empezó su comercialización hasta el año 2012.
+El concepto es el de un ordenador desnudo de todos los accesorios que se pueden eliminar sin que afecte al funcionamiento básico. Está formada por una placa que soporta varios componentes necesarios en un ordenador común y es capaz de comportarse como tal.</p>
+
+<h3>Historia</h3>
+<img class="img-fluid float-right" src="img/rasberry-software.png"> 
+<p>El nacimiento de Raspberry se dio en el año 2006, basada en el microtrolador Atmel ATmega644. 
+Después de sacar el primer prototipo y refinarlo, la organización Raspberry fue fundada el mayo del año 2009, en Caldecote, South Cambridgeshire, del Reino Unido, siendo regulada al principio como asociación caritativa por la comisión de caridad de Inglaterra y Gales. Eben Upton, como fundador principal de la organización Raspberry Pi, inspirado por la forma en como el ordenador Acorn BBC Micro fomentó el aprendizaje de la informática, principalmente a niños, contacto a varios entusiastas de la informática para realizar este proyecto.
+Antes de su lanzamiento, en Agosto del 2011 se habían fabricado 50 placas Alfa, y en Octubre se había ya elegido el logotipo oficial de la fundación. Para el 29 de Febrero del 2012, se empezaron a vender los modelos A, donde se había anunciado antes que tendrían 128 MB de memoria RAM, pero en su lanzamiento,  lograron aumentar la capacidad hasta 256 MB, en los siguientes 6 meses llegaron a vender hasta 500,000 unidades.
+El primer modelo lanzado al mercado fue la Raspberry Pi Modelo A, que solo tenía un solo puerto USB y carecía de un controlador Ethernet, las ventas principalmente se centraron en el modelo B, que tenía dos puerto USB y sí tenía un controlador para Ethernet.</p>
+<h3>Comunidad </h3>
+ 
+<p>La comunidad de Raspberry Pi fue descrita por Jamie Ayre de la compañía AdaCore ligada a FLOSS como una de las partes más emocionantes del proyecto.El blogger de la comunidad Russell Davis, dijo que gracias a la fuerza de la comunidad, la fundación puede concentrarse en la documentación y la enseñanza.
+Se han venido realizando una serie de eventos llamados 'Raspberry Jam', dirigidos por Alan O’Donohoe y organizados en el Reino Unido, y en otras partes del mundo, para involucrar a la gente con la comunidad.
+Desde mayo de 2012 es publicada mensualmente una revista gratuita llamada MagPi, que se dedica divulgar información acerca del Raspberry Pi, e incluye proyectos que se pueden desarrollar con él y cursos de programación de diferentes lenguajes. Es publicada mediante licencia Creative Commons BY-SA-NC.
+El 2 de agosto de 2012, se añadió al foro oficial de la fundación los subforos en español, portugués y alemán (el de francés ya llevaba tiempo creado).
+El 17 de diciembre de 2012, junto a la versión 2012-12-16-wheezy-raspbian de Raspbian, se lanzó la tienda de aplicaciones "Pi Store", que en el momento de salida incluía desde aplicaciones como LibreOffice o Asterisk a juegos como Freeciv o OpenTTD. En esta plataforma se puede poner a disposición de todos los usuarios de Raspbian, mediante moderación y posterior lanzamiento, contenidos gratuitos o de pago, como archivos binarios, código python, imágenes, audio o vídeo. Además se quiere incluir documentación acerca del Raspberry Pi como la revista MagPi y tutoriales de proyectos.</p>
+
+ 
+</div>
+<script src="./elcodigo.js"></script> <!-- todo el codigo javascript -->
+<footer>
+    <div class="container-fluid">
+      <div class="row"> <!-- para que el contenido este centrado hay una fila -->
+        <div class="col-md-12 p-5"> <!-- columna de 12 un pading interno espaciado de 5 -->
+          <!--Footer Bottom-->
+          <p class="text-center">&copy; Copyright 2018 - Ciudad Ojeda, Zulia, Venezuela.</p> <!-- &copy es el simbolo de corporacion -->
+        </div>
+      </div>
+    </div>
+  </footer>
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>-->
+<script src="./bootstrap-4.1.1-dist/jquery-3.3.1.slim.min.js"></script>
+<script src="./bootstrap-4.1.1-dist/js/bootstrap.min.js"></script> <!-- Llamamos al JavaScript de Bootstrap -->
+<!-- https://openwebinars.net/blog/tutorial-bootstrap-3-introduccion-e-instalacion/ -->
+</body>
+</html>
